@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 0.75rem;
+    font-family: 'Press Start 2P', cursive;
+    background-image: url("/img/Bakgrund-rps.jpg");
+}
+
+a{
+    text-decoration: none;
+    color:#ffffff
+}
+
+.nav{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background: #854d27;
+    color:#ffffff;
+    padding-bottom: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.list-item{
+padding-top: 20px;
+
+}
+
+.list-item:hover{
+    -webkit-filter: invert(1);
+    filter: blur(0.8px);
+    
+}
+
+#rock{
+    background-image: url("/img/Rock.png");
+    background-size: 100% 100%;
+    background-position: center;
+    appearance: none;
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    border: #854d27;
+}
+
+#rock:hover{
+    
+}
+
+#paper{
+    background-image: url("/img/Paper.png");
+    background-size: 100% 100%;
+    background-position: center;
+    appearance: none;
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    border: #854d27;
+}
+
+#paper:hover{
+    
+}
+
+#scissors{
+    background-image: url("/img/Scissor.png");
+    background-size: 100% 100%;
+    background-position: center;
+    appearance: none;
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    border: #854d27;
+}
+
+#scissors:hover{
+    
+}
+
+#game{
+display: flex;
+justify-content: space-around;
+align-items: center;
+color: burlywood;
+}
+
+#gamechoice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+
+#secmenu{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#start{
+margin: 20%;
+padding: 25px;
+color: burlywood;
+background-color: #854d27;
+border:#854d27 solid 50px;
+border-radius: 25px;
+}
+
+#rules{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: burlywood;
+    margin-top: 200px;
+}
+
+#statstext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: burlywood;
+    margin-top: 200px;
+    font-size: 1.25rem;
+}
+
+
+@media (max-width: 600px){
+    body{
+        font-size: 0.5rem;
+    }
+    #game{
+        font-size: 0.25rem;
+    }
+}
